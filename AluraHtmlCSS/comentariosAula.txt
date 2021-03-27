@@ -1,0 +1,181 @@
+<strong> = fonte negrito
+<em> = emfase/ font italico
+developer tools = f12
+
+<!DOCKTYPE html> = ultima versão disponivel do html para o navegador
+
+charset = conjunto de caracteres / permite que o usuario veja o site com o dicionario correto
+
+title = titulo da pagina
+
+informações para o navegador ficam no <head>
+informações para exibir na pagina ficam no <body>
+
+css = folha de estilo em cascata
+
+css-inline = css na linha da tag
+
+tag style = css no head
+
+tamanho de fonte padrão do navegador = 16px
+
+id = marcador de identificação
+
+src = source
+
+ul = lista não ordenada
+
+ol = lista ordenada
+
+li = marcação de cada linha, list item
+
+label = etiqueta para o input
+
+label for = conector de par de informações entre a label e o input
+
+input = entrada de dados
+
+textarea = tag de conteudo, para mensagens longas (pode ser aplicado cols para tamanho de coluna e rows para tamanho de linhas)
+
+a propriedade name com nomes iguais dentro do radio button faz com que voce nao possa marcar varios itens ao mesmo tempo     
+
+header = estrutura semantica do html 5, para cabeçalho da pagina
+
+main = estrutura nova do html 5, para o conteudo principal da pagina
+
+section = semantica para divisão de textos complexos com o conteudo de mesmo significado
+
+fieldset = Ela é referente à configuração de um ou mais campos referentes a um assunto específico. Quando, por exemplo, 
+eu tenho o preenchimento dos dados de um cartão de crédito. Todos os dados referentes àquele cartão podem 
+estar dentro de um fieldset.
+
+legend = titulo dentro de uma fieldset
+
+table = propriedade para criar tabela
+
+tr = linhas de uma tabela
+
+td = celulas de uma tabela
+
+thead = estrutura semantica para o cabeçalho dentro de uma tabela
+
+th = celula de head no cabeçalho
+
+colspan = agrupa a quantidade de celulas 
+
+
+pseudo classes = :hover, :active, :required... Tais recursos são utilizados para marcar 
+melhor nossos elementos e gerar um comportamento mais interessante em nosso site.
+
+-------------Cores Hexadecimais-----------------
+
+# = tralha de 6 elementos = 2 PRA RED, 2 PRA GREEN, 2 PRA BLUE
+
+0 = ausencia
+
+F = maximo
+
+#0000000
+
+#FFFFFF
+
+REPRESENTAR VERMELHO = FF0000;
+
+HEXADECIMAL = 0123456789ABCD...
+
+RGB = RED GREEN BLUE, contem 255 niveis de cor
+
+0 = ausencia
+
+255 = maximo
+
+rgb(255,255,255) = branco
+
+rgb(0,0,255) = azul
+
+--------------CSS--------------
+
+Tudo que voce adiciona no elemento pai, é aplicado aos elementos filhos
+
+background = fundo do elemento
+color = cor do elemento
+# =  referenciar uma tag de identificador
+width = largura, pode ser trabalho em pixels ou porcentagem (ex: 100%, vai ocupar 100% da largura da pagina)
+height = altura
+padding = espaçamento interno dentro do elemento / elemento aumenta seu tamanho
+margin = espaçamento externo do elemento
+
+block = bloqueia o conteudo daquela linha, mesmo diminuindo o tamanho, vai ocupar aquela linha
+inline = não deixa alterar o espaçamento externo e interno
+
+inline-block = bloqueia uma largura, mas essa largura é fixa, possibilitando mudar o tamanho, espaçamento etc
+
+ao usar inline-block, os elementos no html nao devem ter espaço, pois senão o inline não poderá ser executado, ou seja, os elementos
+devem ser grudados
+
+vertical-align: top = alinha os elementos para a linha de cima, tirando o padrão de alinhamento em baixo
+
+classes no css = serve para marcar os itens, de forma repetiveis, 
+diferente dos identificadores, podendo marcar todos os itens com a mesma classe
+
+text-transform: uppercase = transforma todo o texto para maiusculo
+
+font weight : bold = deixar o texto em negrito
+
+line-height : espacamento de fonte
+
+em = medida proporcional em pixel, se quisermos uma medida sendo o dobro da base (15px), basta escrever 2em.
+
+
+top: 0 = elemento fica no topo da pagina
+right: 0 = elemento fica no final da parte direita da pagina
+
+width: 940px = é o padrão para o tamanho de caixa que fica centralizada
+
+margin : 0 auto; = centraliza uma caixa independente da resolução
+
+quando se tem um conteudo com absolute e voce quer que esse produto esteja junto a uma caixa, é usado o position relative 
+para levantar essa caixa
+
+position: static = posição padrão (alinhado a esquerda do site)
+position: relative = é uma posição relativa a posição inicial, podendo mudar, mas o ponto inicial continua o mesmo
+position: absolute = posição absoluta ao site/ é deslocado da posição inicial podendo posicionar em qualquer lugar da pagina
+
+float =  Quando utilizamos este recurso,o elemento "descola" da página mas o que seria a 
+sua sombra, continua sendo ocupada virtualmente, isto é, o texto respeita esse espaço ocupado.
+
+clear = limpa uma propriedade para que o restante do conteudo nao seja afetado, por exemplo clear : left; 
+
+box-sizing: border-box = propriedade para que o espaçamento lateral esteja dentro do percentual
+
+border: a borda fica alocada entre o padding e a margin
+
+:hover:  comportamento de estado que voce pode mapear, como passar um mouse encima de algo
+
+:active : funciona ao segurar o mouse, podendo mudar propriedade de outros elementos por exemplo li:active h2{}
+
+url = adiciona uma propriedade de imagem no fundo url:("teste.jpg")
+
+propriedade " , " serve para dizer que um outro grupo terá uma replica de qualquer seletor de CSS e ele vai ter as mesmas configurações que o primeiro
+ex : form input, form textarea
+
+transform scale = aumenta o tamanho da propriedade no hover
+
+---trabalhando com pseudo elementos--
+
+first:child = trabalha com o primeiro elemento da classe
+
+last:child = trabalha com o ultimo elemento da classe
+
+nth:child(algum numero) = trabalha com o elemento especificado dentro do parametro
+
+nth>child(2n) = trabalha com todos os elementos pares dentro do elemento
+
+first-letter = trabalha com a primeira letra especificada do elemento
+
+last-letter = .... ultima letra especificada do elemento
+
+first-line = trabalha com toda linha do elemento
+
+content: cria um conteudo visual especifico para aquele elemento como content: "[]"
+
