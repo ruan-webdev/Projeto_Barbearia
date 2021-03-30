@@ -4,6 +4,8 @@ developer tools = f12
 
 <!DOCKTYPE html> = ultima versão disponivel do html para o navegador
 
+<meta name="viewport" content="width=device-width"> : propriedade para trabalhar com responsividade no site, extremamente necessario
+
 charset = conjunto de caracteres / permite que o usuario veja o site com o dicionario correto
 
 title = titulo da pagina
@@ -179,3 +181,54 @@ first-line = trabalha com toda linha do elemento
 
 content: cria um conteudo visual especifico para aquele elemento como content: "[]"
 
+
+calc: funcao de realizar calculo no css para achar uma medida especifica, ex: width: calc(33% -10px)
+
+opacity : propriedade para dar um efeito, como um insufilme no elemento, ex : opacity: 0.3;  = 30%
+
+box-shadow : criar sombreamento no elemento, ao usar o sinal de " , " é possivel criar mais de uma sombra
+
+box-shadow: inset : criar sombreamento interno no elemento
+
+text-shadow> criar sombreamento no texto
+
+
+
+--------------SELETORES AVANÇADOS CSS----------------------
+
+para selecionar os filhos diretos da main, é utilizado o sinal de " > "
+
+ex:
+main > p{
+    background: red
+}
+
+
+para selecionar um paragrafo que sucede uma img, é utilizado o elemento ancora e para o primeiro irmao o  " + "
+
+ex:
+img + p{
+    background: blue
+}
+
+para selecionar um ultimo item? nesse caso ele vai selecionar o p que é filho e vai ir no elemento seguinte com o + que é o h2
+
+ex: 
+
+section > p + h2
+
+
+para selecionar todos os paragrafos localizados dentro de uma imagem, é utilizado o sinal de " ~ "
+
+ex:
+img ~ p{
+    background: red
+}
+
+
+e para excluir itens especificos dentro de um html?
+
+ex:
+.principal p:not (#missao){
+    background: orange
+}
